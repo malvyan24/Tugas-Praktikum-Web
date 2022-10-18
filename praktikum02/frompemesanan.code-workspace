@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../xampp"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "praktikum 02"
+	}
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+</head>
+
+<body style="margin: 10px 8cm; border: 2px solid black;;">
+    <div
+        style="display: flex; background-color: grey; padding: 0px 20px; justify-content: space-between; align-items: center; border-bottom: 3px solid black;">
+        <div style="height: 50%;">
+            <p style="font-size: 25px;"><strong>|| magazine</strong></p>
+        </div>
+        <div>
+            <p>
+                <a href="#">Category 1</a>
+                |
+                <a href="#">Category 2</a>
+                |
+                <a href="#">Category 3</a>
+            </p>
+        </div>
+        <div>
+            <i class="bi bi-search"></i>
+            <i class="bi bi-cart-check-fill"></i>
+            <a href="#">Cart (1)</a>
+        </div>
+    </div>
+    <div style="padding: 30px 15px 50px; display: flex; line-height: 0px; gap: 40px;">
+        <div style="width: 60%;">
+            <h2>Your Cart</h2>
+            <hr style="margin: -1% 0;">
+            <div style="display: flex; justify-content: space-between;">
+                <div style="width: 40%">
+                    <p>Item</p>
+                </div>
+                <div style="display: flex; justify-content: space-around; width: 60%;">
+                    <p>Price</p>
+                    <p>Quantity</p>
+                </div>
+            </div>
+            <hr style="margin-top: -1%;">
+            <div style="min-height: 150px; align-items: center; display: flex;">
+                <div style="display: flex; align-items: center; width: 40%;">
+                    <img width="100"
+                        src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//95/MTA-4802692/kick-somnia_kick-somnia_bayern_munchen_home_jersey_men_2019-2020_full01_kpx4mt36.jpg"
+                        alt="Jual KICK'Somnia Bayern Munchen Home Jersey Men 2019/2020" style="margin-right: 5px;">
+                    <div style="margin-left: 5px;">
+                        <p>T-Shirt</p>
+                        <p>Size : XL</p>
+                    </div>
+                </div>
+                <div style="display: flex; width: 60%; justify-content: space-around; margin-left: -1%;">
+                    <p><strong>$23.00</strong></p>
+                    <select name="qty" id="qty">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <p style="text-align: right;"><strong>Subtotal: $23.00</strong></p>
+            <hr>
+        </div>
+        <div style="width: 40%; border: 1px solid black; padding: 10px; background-color: antiquewhite;">
+            <h4>Summary (1 item)</h4>
+            <div style="display: flex; justify-content: space-between;">
+                <p>Subtotal</p>
+                <p>$23.00</p>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <p>Shipping</p>
+                <p>-</p>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <p>Est. Taxes</p>
+                <p>-</p>
+            </div>
+            <hr style="background-color: white;">
+            <div style="display: flex; justify-content: space-between;">
+                <p>Total</p>
+                <p>$23.00</p>
+            </div>
+            <button type="submit" style="background-color: darkblue; width: 100%; overflow: hidden; border-radius: 10px; padding: 2% 0"><span style="color: white;">Checkout</span></button>
+        </div>
+    </div>
+    <input type="email" placeholder="Enter Email">
+</body>
+
+</html>
